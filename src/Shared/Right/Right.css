@@ -1,0 +1,10 @@
+.right_link{
+    text-decoration: none;
+}
+.right{
+    width: 100%;
+}
+.sticky {
+    position: sticky !important;
+    top: 0!important;
+}

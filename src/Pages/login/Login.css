@@ -1,0 +1,32 @@
+.form{
+    width: 350px;
+    border-radius: 10px;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 20px;
+    background: rgb(245, 245, 245);
+}
+.or_area{
+    margin: 30px auto;
+    display: flex;
+}
+.or_area span {
+    width: 45%;
+    border-bottom: 1px solid #95A0A7;
+    text-align: center;
+    line-height: 0.1em;
+}
+.def{
+    border-bottom: none !important;
+    width: 20% !important;
+}
+.google_btn{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+}
+.google_img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

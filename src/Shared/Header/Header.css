@@ -1,0 +1,30 @@
+.navs_link{
+    border-radius: 5px;
+}
+.navs_link:hover{
+    background: #51b3f5;
+    color: white !important;
+    font-weight: 500;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.toggle_theme{
+    cursor : pointer;
+}
+.profile_name{
+    display: none;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.5s ease;
+}
+.profile_name_active{
+    display: block;
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: all 0.5s ease !important;
+}
+

@@ -1,0 +1,15 @@
+.active {
+    color: #2B87B7!important;
+    font-weight: 500!important;
+}
+.white{
+    color: white!important;
+}
+.black{
+    background: black!important;
+}
+.dark{
+    background:rgba(49, 49, 49, 0.856)!important;
+    color: #2B87B7!important;
+    font-weight: 500!important;
+}

@@ -1,0 +1,33 @@
+.container_course {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+@media screen and (max-width: 992px) {
+    .container_course {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .container_course {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .rescard {
+        width: 400px !important;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+    .rescard {
+        width: 100% !important;
+        margin: auto;
+    }
+
+    
+}
